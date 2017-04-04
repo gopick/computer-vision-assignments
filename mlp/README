@@ -1,0 +1,19 @@
+
+The code can be run by the command: python driver.py
+
+FEATURES :
+
+1. user can specify the number of layers
+
+2. user can specify the activation function for each layer
+
+First experiments were done to calculate the hyperparameter value through cross validation. The data is present in data.csv
+
+
+The main program code is present in mlp.py
+
+you need numpy and matplotlib (pylot) installed
+Different experiments were run and the plots are present in plots.pdf
+
+
+the code structure and method naming is followed from http://neuralnetworksanddeeplearning.com/ for easy readablitly and standard notation. And, all the required implementations for the assignment were done by me

@@ -1,0 +1,39 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LeNet5
+	Gopichand Kotana 14249
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NUMPY IMPLEMENTATION OF THE NETWORK
+
+To run the LeNet, run driver.py using the command 'python driver.py'
+Tweaking the number of examples on which it is trained, batch_size, epochs can be done in driver.py
+This gives you the training error
+
+You can also use the validation data as test data
+For that comment out the lines 299 and 230 in LeNet_final.py and use the lines 232 and 233
+
+All the functions that are required for the network are defined in LeNet_final.py
+
+
+------------------------------------------------------------------------------------------------------
+
+KERAS IMPLEMENTATION
+
+code is in keras_net.py
+To run it 'python keras_net.py'
+------------------------------------------------------------------------------------------------------
+
+t-SNE plots
+
+The code snippet in tsne.py can be kept in driver.py and run it to obtain the t-SNE plots
+1000 examples have been used to make the plots
+
+There is no script to directly build these figures
+------------------------------------------------------------------------------------------------------
+TO RUN THE CODE THIS IS ESSENTIAL :
+
+This doesn't have the data folder required(MNSIT) data.
+Clone a repo using this command 'git clone https://github.com/mnielsen/neural-networks-and-deep-learning.git'
+
+and use the data folder you get in this repository
+
