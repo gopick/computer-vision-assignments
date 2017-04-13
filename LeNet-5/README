@@ -1,4 +1,4 @@
-#NUMPY IMPLEMENTATION OF THE NETWORK
+# NUMPY IMPLEMENTATION OF THE NETWORK
 
 To run the LeNet, run driver.py using the command 'python driver.py'
 Tweaking the number of examples on which it is trained, batch_size, epochs can be done in driver.py
